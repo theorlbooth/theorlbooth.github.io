@@ -6,11 +6,13 @@ import './styles/style.scss'
 import Home from './components/Home'
 
 const App = () => {
-  <BrowserRouter>
-    <Switch>
-      <Route exact path="/home" component={Home} />
-    </Switch>
-  </BrowserRouter>
+  return <>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Home} />
+      </Switch>
+    </BrowserRouter>
+  </>
 }
 
 export default App
