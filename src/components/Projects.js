@@ -1,9 +1,10 @@
 import React from 'react'
 
+import Project1 from './Projects/Project_1'
+
 const Projects = () => {
   return <>
-    <div id="projects" style={{ height: '200px', backgroundColor: 'red' }}>
-    </div>
+    <Project1 />
   </>
 
 }

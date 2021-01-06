@@ -71,8 +71,54 @@
       text-decoration: underline;
     }
   }
-
-
-
 }
 
+
+#project1 {
+
+  margin: 5% 10%;
+
+
+  .screen_shots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 50px;
+    }
+
+    svg {
+      font-size: 50px;
+    }   
+
+    .name {
+      position: absolute;
+      font-weight: bold;
+      font-size: 20px;
+      opacity: 0;
+      max-width: 100%;
+      text-align: center;
+      color: blue;
+    }
+
+  }
+
+  .column:hover {
+    i {
+      color: red;
+    }
+    svg { 
+      color: red;
+    }
+    .name {
+      opacity: 1;
+    }
+  }
+}
