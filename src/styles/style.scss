@@ -1,0 +1,78 @@
+
+#about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .blurb {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+#skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 50px;
+    }
+
+    .name {
+      position: absolute;
+      font-weight: bold;
+      font-size: 20px;
+      opacity: 0;
+      max-width: 100%;
+      text-align: center;
+      color: blue;
+    }
+
+  }
+
+  .column:hover {
+    i {
+      color: red;
+    }
+    .name {
+      opacity: 1;
+    }
+  }
+
+  .learning {
+    width: 50%;
+    margin: 30px;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 28px;
+      text-decoration: underline;
+    }
+  }
+
+  .current {
+    width: 50%;
+    margin: 30px;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 28px;
+      text-decoration: underline;
+    }
+  }
+
+
+
+}
+
