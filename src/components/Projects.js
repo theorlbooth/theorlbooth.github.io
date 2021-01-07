@@ -11,7 +11,7 @@ import ProjectX from './Projects/Project_X'
 
 const Projects = () => {
   return <>
-    <div id="projects" style={{ padding: '5% 10%', backgroundColor: 'black' }}>
+    <div id="projects" style={{ padding: '5% 10%', backgroundColor: '#2a4d69' }}>
       <AliceCarousel
         infinite={true}
         // autoPlay={true}

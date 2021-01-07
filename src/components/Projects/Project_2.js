@@ -9,7 +9,7 @@ const Project2 = () => {
       <div className="tile is-ancestor">
 
         <div className="tile is-parent is-vertical">
-          <article className="tile is-child notification is-primary">
+          <article className="tile is-child notification" style={{ backgroundColor: '#35a79c' }}>
             <div className="content">
               <p className="title">Music Worldwide</p>
               <p className="subtitle">Project 2</p>
@@ -17,8 +17,8 @@ const Project2 = () => {
             </div>
             <div className="links">
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-github-original"></i><div className="name">GitHub</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><HiLink /><div className="name">Link to Site</div></div>
+                <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://github.com/theorlbooth/project-2"><i className="devicon-github-original"></i></a></div>
+                <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://theorlbooth.co.uk/project-2/"><HiLink /></a></div>
               </div>
             </div>
           </article>
@@ -34,7 +34,7 @@ const Project2 = () => {
           <article className="tile is-child is-primary screen_shots">
             <img src="../styles/images/project_2/4.png" alt="Artist Search" />
           </article>
-          <article className="tile is-child notification is-primary" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px' }}>
+          <article className="tile is-child notification" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px', backgroundColor: '#35a79c' }}>
             <p className="subtitle" style={{ height: '20%' }}>Main Technologies:</p>
 
             <div className="links" style={{ height: '80%' }}>

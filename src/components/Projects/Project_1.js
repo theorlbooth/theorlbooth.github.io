@@ -9,7 +9,7 @@ const Project1 = () => {
       <div className="tile is-ancestor">
 
         <div className="tile is-parent is-vertical">
-          <article className="tile is-child notification is-primary">
+          <article style={{ backgroundColor: '#35a79c' }} className="tile is-child notification">
             <div className="content">
               <p className="title">Star Invaders</p>
               <p className="subtitle">Project 1</p>
@@ -17,8 +17,8 @@ const Project1 = () => {
             </div>
             <div className="links">
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-github-original"></i><div className="name">GitHub</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><HiLink /><div className="name">Link to Site</div></div>
+                <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://github.com/theorlbooth/Project_1"><i className="devicon-github-original"></i></a></div>
+                <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://theorlbooth.co.uk/Project_1/"><HiLink /></a></div>
               </div>
             </div>
           </article>
@@ -34,7 +34,7 @@ const Project1 = () => {
           <article className="tile is-child is-primary screen_shots">
             <img src="../styles/images/project_1/GP_Level_4.2.png" alt="Level 4 Gameplay" />
           </article>
-          <article className="tile is-child notification is-primary" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px' }}>
+          <article className="tile is-child notification" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px', backgroundColor: '#35a79c' }}>
             <p className="subtitle" style={{ height: '20%' }}>Main Technologies:</p>
 
             <div className="links" style={{ height: '80%' }}>

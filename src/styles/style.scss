@@ -1,21 +1,28 @@
 
+html {
+  width: 100%
+}
+
 #about {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding: 5% 0%;
+  background-color: #2a4d69;
 
   img {
-    border: 3px solid black;
-    border-radius: 50%;
+    // border: 3px solid black;
+    // border-radius: 50%;
     max-width: 300px;
+    // filter: grayscale(100%);
   }
 
   .blurb {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #009688;
   }
 }
 
@@ -40,14 +47,14 @@
       opacity: 0;
       max-width: 100%;
       text-align: center;
-      color: blue;
+      color: #e7eff6;
     }
 
   }
 
   .column:hover {
     i {
-      color: red;
+      color: #009688;
     }
     .name {
       opacity: 1;
@@ -80,9 +87,16 @@
 }
 
 
+
+
 #project1, #project2, #project3, #project4, #projectX {
 
   margin: 5% 10%;
+
+
+  a {
+    color: #e7eff6;
+  }
 
   .screen_shots {
     display: flex;
@@ -110,17 +124,17 @@
       opacity: 0;
       max-width: 100%;
       text-align: center;
-      color: blue;
+      color: #e7eff6;
     }
 
   }
 
   .column:hover {
     i {
-      color: red;
+      color: #009688;
     }
     svg { 
-      color: red;
+      color: #009688;
     }
     .name {
       opacity: 1;
@@ -128,8 +142,17 @@
   }
 }
 
+
+
+
+
+
 #contact {
 
+  a {
+    color: #e7eff6;
+  }
+  
   .column {
     display: flex;
     justify-content: center;
@@ -151,17 +174,17 @@
       opacity: 0;
       max-width: 100%;
       text-align: center;
-      color: blue;
+      color: #2a4d69;
     }
 
   }
 
   .column:hover {
     i {
-      color: red;
+      color: #009688;
     }
     svg { 
-      color: red;
+      color: #009688;
     }
     .name {
       opacity: 1;

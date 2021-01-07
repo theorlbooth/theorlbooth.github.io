@@ -9,7 +9,7 @@ const Project3 = () => {
       <div className="tile is-ancestor">
 
         <div className="tile is-parent is-vertical">
-          <article className="tile is-child notification is-primary">
+          <article className="tile is-child notification" style={{ backgroundColor: '#35a79c' }}>
             <div className="content">
               <p className="title">Find-A-Pint</p>
               <p className="subtitle">Project 3</p>
@@ -17,8 +17,8 @@ const Project3 = () => {
             </div>
             <div className="links">
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-github-original"></i><div className="name">GitHub</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><HiLink /><div className="name">Link to Site</div></div>
+                <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://github.com/theorlbooth/Project-3"><i className="devicon-github-original"></i></a></div>
+                <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://project-3-theo.herokuapp.com"><HiLink /></a></div>
               </div>
             </div>
           </article>
@@ -31,7 +31,7 @@ const Project3 = () => {
           <article className="tile is-child is-primary screen_shots">
             <img src="../styles/images/project_3/2.png" alt="Map" />
           </article>
-          <article className="tile is-child notification is-primary" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px' }}>
+          <article className="tile is-child notification" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px', backgroundColor: '#35a79c' }}>
             <p className="subtitle" style={{ height: '20%' }}>Main Technologies:</p>
 
             <div className="links" style={{ height: '80%' }}>

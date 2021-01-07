@@ -14,13 +14,13 @@ import Contact from './components/Contact'
 
 const App = () => {
   return <>
-  *** Under Construction *** 
-  {/* <Navbar />
+  {/* *** Under Construction ***  */}
+  <Navbar />
   <Home />
   <About />
   <Skills />
   <Projects />
-  <Contact /> */}
+  <Contact />
 
   </>
 }

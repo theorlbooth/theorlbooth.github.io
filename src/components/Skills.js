@@ -3,7 +3,7 @@ import React from 'react'
 
 const Skills = () => {
   return <>
-    <div id="skills" style={{ backgroundColor: 'lightblue' }}>
+    <div id="skills" style={{ backgroundColor: '#35a79c' }}>
 
       <div className="learning">
         <h2>Learning</h2>
