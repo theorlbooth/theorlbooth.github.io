@@ -16,7 +16,6 @@ const Projects = () => {
         infinite={true}
         // autoPlay={true}
         autoPlayInterval={5000}
-
       >
         <div>
           <Project1 />

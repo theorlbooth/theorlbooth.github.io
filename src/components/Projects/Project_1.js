@@ -14,7 +14,7 @@ const Project1 = () => {
       <div className="tile is-ancestor">
 
         <div className="tile is-parent is-vertical">
-          <article style={{ backgroundColor: '#35a79c' }} className="tile is-child notification">
+          <article style={{ backgroundColor: '#35a79c', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }} className="tile is-child notification">
             <div className="content">
               <p className="title">Star Invaders</p>
               <p className="subtitle">Project 1</p>

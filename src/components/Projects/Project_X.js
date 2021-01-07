@@ -15,7 +15,7 @@ const ProjectX = () => {
       <div className="tile is-ancestor">
 
         <div className="tile is-parent is-vertical">
-          <article className="tile is-child notification" style={{ backgroundColor: '#35a79c' }}>
+          <article className="tile is-child notification" style={{ backgroundColor: '#35a79c', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div className="content">
               <p className="title">@Admin</p>
               <p className="subtitle">Ongoing Solo Project</p>
