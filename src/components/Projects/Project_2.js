@@ -23,8 +23,8 @@ const Project2 = () => {
             </div>
             <div className="links">
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://github.com/theorlbooth/project-2"><i className="devicon-github-original"></i></a></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://theorlbooth.co.uk/project-2/"><HiLink /></a></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://github.com/theorlbooth/project-2"><i className="devicon-github-original"></i></a></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://theorlbooth.co.uk/project-2/"><HiLink /></a></div>
               </div>
             </div>
           </article>
@@ -45,13 +45,13 @@ const Project2 = () => {
 
             <div className="links" style={{ height: '80%' }}>
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex' }}>
-                <div className="column is-one-third-desktop is-3-mobile"><i className="devicon-javascript-plain"></i><div className="name">JavaScript</div></div>
-                <div className="column is-one-third-desktop is-3-mobile"><i className="devicon-react-original"></i><div className="name">React</div></div>
-                <div className="column is-one-third-desktop is-3-mobile"><i className="devicon-html5-plain"></i><div className="name">HTML5</div></div>
-                <div className="column is-one-third-desktop is-3-mobile"><i className="devicon-css3-plain"></i><div className="name">CSS3</div></div>
-                <div className="column is-one-third-desktop is-3-mobile"><i className="devicon-npm-original-wordmark"></i><div className="name">npm</div></div>
-                <div className="column is-one-third-desktop is-3-mobile"><i className="devicon-git-plain"></i><div className="name">Git</div></div>
-                <div className="column is-one-third-desktop is-3-mobile"><i className="devicon-github-original"></i><div className="name">GitHub</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-javascript-plain"></i><div className="name">JavaScript</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-react-original"></i><div className="name">React</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-html5-plain"></i><div className="name">HTML5</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-css3-plain"></i><div className="name">CSS3</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-npm-original-wordmark"></i><div className="name">npm</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-git-plain"></i><div className="name">Git</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-github-original"></i><div className="name">GitHub</div></div>
               </div>
 
             </div>

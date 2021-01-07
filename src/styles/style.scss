@@ -1,7 +1,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: 84px;
+  scroll-padding: 83px;
 }
 
 a.navbar-item {
@@ -43,10 +43,45 @@ a.navbar-item:hover {
   }
 }
 
+@media only screen and (max-width: 450px) {
+  #about {
+    flex-direction: column;
+
+    img {
+      margin: 10%;
+    }
+
+    .blurb {
+      margin: 10%;
+    }
+  }
+
+  #skills {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .center {
+      width: 80% !important;
+      height: 1px !important;
+      margin: 5px !important;
+    }
+  }
+  
+
+}
+
+
 #skills {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+
+  .center {
+    width: 1px;
+    border: 1px solid #4a4a4a;
+    margin: 10% 0 8% 0;
+  }
+
 
   .column {
     display: flex;
@@ -81,11 +116,11 @@ a.navbar-item:hover {
 
   .learning {
     width: 50%;
-    margin: 30px;
+    margin: 3%;
 
     h2 {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 5%;
       font-size: 28px;
       text-decoration: underline;
     }
@@ -93,11 +128,11 @@ a.navbar-item:hover {
 
   .current {
     width: 50%;
-    margin: 30px;
+    margin: 3%;
 
     h2 {
       text-align: center;
-      margin-bottom: 40px;
+      margin-bottom: 5%;
       font-size: 28px;
       text-decoration: underline;
     }

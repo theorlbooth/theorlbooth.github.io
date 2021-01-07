@@ -23,8 +23,8 @@ const Project3 = () => {
             </div>
             <div className="links">
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://github.com/theorlbooth/Project-3"><i className="devicon-github-original"></i></a></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://project-3-theo.herokuapp.com"><HiLink /></a></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://github.com/theorlbooth/Project-3"><i className="devicon-github-original"></i></a></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://project-3-theo.herokuapp.com"><HiLink /></a></div>
               </div>
             </div>
           </article>
@@ -40,19 +40,19 @@ const Project3 = () => {
 
             <div className="links" style={{ height: '80%' }}>
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex' }}>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-javascript-plain"></i><div className="name">JavaScript</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-react-original"></i><div className="name">React</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-express-original"></i><div className="name">Express</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-heroku-original"></i><div className="name">Heroku</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-mongodb-plain"></i><div className="name">MongoDB</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-nodejs-plain"></i><div className="name">NodeJS</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-webpack-plain"></i><div className="name">Webpack</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-html5-plain"></i><div className="name">HTML5</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-css3-plain"></i><div className="name">CSS3</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-sass-original"></i><div className="name">SASS</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-npm-original-wordmark"></i><div className="name">npm</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-git-plain"></i><div className="name">Git</div></div>
-                <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-github-original"></i><div className="name">GitHub</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-javascript-plain"></i><div className="name">JavaScript</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-react-original"></i><div className="name">React</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-express-original"></i><div className="name">Express</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-heroku-original"></i><div className="name">Heroku</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-mongodb-plain"></i><div className="name">MongoDB</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-nodejs-plain"></i><div className="name">NodeJS</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-webpack-plain"></i><div className="name">Webpack</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-html5-plain"></i><div className="name">HTML5</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-css3-plain"></i><div className="name">CSS3</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-sass-original"></i><div className="name">SASS</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-npm-original-wordmark"></i><div className="name">npm</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-git-plain"></i><div className="name">Git</div></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-github-original"></i><div className="name">GitHub</div></div>
               </div>
             </div>
           </article>
