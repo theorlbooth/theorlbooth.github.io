@@ -2,6 +2,12 @@ import React from 'react'
 
 import { HiLink } from 'react-icons/hi'
 
+import Pic1 from '../../styles/images/project_x/1.png'
+import Pic2 from '../../styles/images/project_x/2.png'
+import Pic5 from '../../styles/images/project_x/5.png'
+import Pic6 from '../../styles/images/project_x/6.png'
+import PicJoin from '../../styles/images/project_x/Join.png'
+
 const ProjectX = () => {
   return <>
     <div id="projectX">
@@ -23,16 +29,16 @@ const ProjectX = () => {
             </div>
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_x/1.png" alt="Next 7 Days" />
+            <img src={Pic1} alt="Next 7 Days" />
           </article>
         </div>
 
         <div className="tile is-parent is-vertical">
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_x/6.png" alt="Table" />
+            <img src={Pic6} alt="Table" />
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_x/Join.png" alt="Lisbon/Shanghai" />
+            <img src={PicJoin} alt="Lisbon/Shanghai" />
           </article>
           <article className="tile is-child notification" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px', backgroundColor: '#35a79c' }}>
             <p className="subtitle" style={{ height: '20%' }}>Main Technologies:</p>
@@ -54,10 +60,10 @@ const ProjectX = () => {
 
         <div className="tile is-parent is-vertical">
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_x/5.png" alt="Next 24h" />
+            <img src={Pic5} alt="Next 24h" />
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_x/2.png" alt="Home" />
+            <img src={Pic2} alt="Home" />
           </article>
         </div>
 

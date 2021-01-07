@@ -1,6 +1,11 @@
 import React from 'react'
 
 import { HiLink } from 'react-icons/hi'
+import Level1 from '../../styles/images/project_1/1.png'
+import Level4GP from '../../styles/images/project_1/2.png'
+import Level3GP from '../../styles/images/project_1/3.png'
+import BossGP from '../../styles/images/project_1/4.png'
+import Rules from '../../styles/images/project_1/5.png'
 
 const Project1 = () => {
   return <>
@@ -23,16 +28,16 @@ const Project1 = () => {
             </div>
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_1/GP_Level3.png" alt="Level 3 Gameplay" />
+            <img src={Level3GP} alt="Level 3 Gameplay" />
           </article>
         </div>
 
         <div className="tile is-parent is-vertical">
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_1/Level_1.png" alt="Level 1" />
+            <img src={Level1} alt="Level 1" />
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_1/GP_Level_4.2.png" alt="Level 4 Gameplay" />
+            <img src={Level4GP} alt="Level 4 Gameplay" />
           </article>
           <article className="tile is-child notification" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px', backgroundColor: '#35a79c' }}>
             <p className="subtitle" style={{ height: '20%' }}>Main Technologies:</p>
@@ -52,10 +57,10 @@ const Project1 = () => {
 
         <div className="tile is-parent is-vertical">
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_1/Rules.png" alt="Rules" />
+            <img src={Rules} alt="Rules" />
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_1/GP_Boss.png" alt="Boss Gameplay" />
+            <img src={BossGP} alt="Boss Gameplay" />
           </article>
         </div>
 

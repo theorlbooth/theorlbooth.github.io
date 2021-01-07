@@ -2,6 +2,12 @@ import React from 'react'
 
 import { HiLink } from 'react-icons/hi'
 
+import Pic1 from '../../styles/images/project_3/1.png'
+import Pic2 from '../../styles/images/project_3/2.png'
+import Pic3 from '../../styles/images/project_3/3.png'
+import Pic4 from '../../styles/images/project_3/4.png'
+import Pic5 from '../../styles/images/project_3/5.png'
+
 const Project3 = () => {
   return <>
     <div id="project3">
@@ -23,13 +29,13 @@ const Project3 = () => {
             </div>
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_3/5.png" alt="Nested Comments" />
+            <img src={Pic5} alt="Nested Comments" />
           </article>
         </div>
 
         <div className="tile is-parent is-vertical">
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_3/2.png" alt="Map" />
+            <img src={Pic2} alt="Map" />
           </article>
           <article className="tile is-child notification" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px', backgroundColor: '#35a79c' }}>
             <p className="subtitle" style={{ height: '20%' }}>Main Technologies:</p>
@@ -53,17 +59,17 @@ const Project3 = () => {
             </div>
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_3/4.png" alt="Admin Page" />
+            <img src={Pic4} alt="Admin Page" />
           </article>
 
         </div>
 
         <div className="tile is-parent is-vertical">
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_3/3.png" alt="Single Pub" />
+            <img src={Pic3} alt="Single Pub" />
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_3/1.png" alt="Register" />
+            <img src={Pic1} alt="Register" />
           </article>
         </div>
 

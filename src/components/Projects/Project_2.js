@@ -2,6 +2,12 @@ import React from 'react'
 
 import { HiLink } from 'react-icons/hi'
 
+import Pic1 from '../../styles/images/project_2/1.png'
+import Pic2 from '../../styles/images/project_2/2.png'
+import Pic3 from '../../styles/images/project_2/3.png'
+import Pic4 from '../../styles/images/project_2/4.png'
+import Pic5 from '../../styles/images/project_2/5.png'
+
 const Project2 = () => {
   return <>
     <div id="project2">
@@ -23,16 +29,16 @@ const Project2 = () => {
             </div>
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_2/3.png" alt="Filter Screenshot" />
+            <img src={Pic3} alt="Filter Screenshot" />
           </article>
         </div>
 
         <div className="tile is-parent is-vertical">
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_2/2.png" alt="Home Screenshot" />
+            <img src={Pic2} alt="Home Screenshot" />
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_2/4.png" alt="Artist Search" />
+            <img src={Pic4} alt="Artist Search" />
           </article>
           <article className="tile is-child notification" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px', backgroundColor: '#35a79c' }}>
             <p className="subtitle" style={{ height: '20%' }}>Main Technologies:</p>
@@ -54,10 +60,10 @@ const Project2 = () => {
 
         <div className="tile is-parent is-vertical">
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_2/5.png" alt="Artist Result" />
+            <img src={Pic5} alt="Artist Result" />
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_2/1.png" alt="Search" />
+            <img src={Pic1} alt="Search" />
           </article>
         </div>
 

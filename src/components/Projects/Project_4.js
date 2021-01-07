@@ -2,6 +2,12 @@ import React from 'react'
 
 import { HiLink } from 'react-icons/hi'
 
+import Pic1 from '../../styles/images/project_4/1.png'
+import Pic2 from '../../styles/images/project_4/2.png'
+import Pic3 from '../../styles/images/project_4/3.png'
+import Pic4 from '../../styles/images/project_4/4.png'
+import Pic5 from '../../styles/images/project_4/5.png'
+
 const Project4 = () => {
   return <>
     <div id="project4">
@@ -23,13 +29,13 @@ const Project4 = () => {
             </div>
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_4/2.png" alt="Single Place" />
+            <img src={Pic2} alt="Single Place" />
           </article>
         </div>
 
         <div className="tile is-parent is-vertical">
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_4/5.png" alt="Trip Planner" />
+            <img src={Pic5}alt="Trip Planner" />
           </article>
 
           
@@ -59,13 +65,13 @@ const Project4 = () => {
 
         <div className="tile is-parent is-vertical">
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_4/3.png" alt="Folders" />
+            <img src={Pic3} alt="Folders" />
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_4/1.png" alt="Search Result" />
+            <img src={Pic1} alt="Search Result" />
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src="../styles/images/project_4/4.png" alt="Register" />
+            <img src={Pic4} alt="Register" />
           </article>
         </div>
 
