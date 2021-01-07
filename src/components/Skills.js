@@ -3,21 +3,9 @@ import React from 'react'
 
 const Skills = () => {
   return <>
-    <div id="skills" style={{ backgroundColor: '#35a79c' }}>
-
-      <div className="learning">
-        <h2>Learning</h2>
-        <div className="columns is-multiline is-mobile is-centered">
-          <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-amazonwebservices-original"></i><div className="name">Amazon Web Services</div></div>
-          <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-bootstrap-plain"></i><div className="name">Bootstrap</div></div>
-          <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-csharp-plain"></i><div className="name">C#</div></div>
-          {/* <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-mocha-plain"></i><div className="name">Mocha</div></div> */}
-          <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-ruby-plain"></i><div className="name">Ruby</div></div>
-        </div>
-      </div>
-      <div className="center" style={{ width: '1px', border: '1px solid black', margin: '100px 0 80px 0' }}></div>
+    <div id="skills" style={{ backgroundColor: '#35a79c', paddingBottom: '30px' }}>
       <div className="current">
-        <h2>Current</h2>
+        <h2>Current Skills</h2>
         <div className="columns is-multiline is-mobile is-centered">
           <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-babel-plain"></i><div className="name">Babel</div></div>
           <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-css3-plain"></i><div className="name">CSS3</div></div>
@@ -38,6 +26,18 @@ const Skills = () => {
           <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-webpack-plain"></i><div className="name">Webpack</div></div>
         </div>
       </div>
+      <div className="center" style={{ width: '1px', border: '1px solid #4a4a4a', margin: '100px 0 80px 0' }}></div>
+      <div className="learning">
+        <h2>Learning</h2>
+        <div className="columns is-multiline is-mobile is-centered">
+          <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-amazonwebservices-original"></i><div className="name">Amazon Web Services</div></div>
+          <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-bootstrap-plain"></i><div className="name">Bootstrap</div></div>
+          <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-csharp-plain"></i><div className="name">C#</div></div>
+          {/* <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-mocha-plain"></i><div className="name">Mocha</div></div> */}
+          <div className="column is-one-fifth-desktop is-3-mobile"><i className="devicon-ruby-plain"></i><div className="name">Ruby</div></div>
+        </div>
+      </div>
+
     </div>
   </>
 

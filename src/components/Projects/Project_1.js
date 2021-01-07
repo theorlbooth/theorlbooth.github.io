@@ -21,7 +21,7 @@ const Project1 = () => {
               <div className="content">This was the first project we were assigned on the course and the aim of it was to create a playable game of our choice from a list (Battleships / Candy Crush / Frogger / Minesweeper / Pacman / Reversi / Snake / Space Invaders / Tetris / Ultimate Tic-Tac-Toe) and reder it playable in a browser using DOM-manipulation. This was a solo project and we had 5 days to implement it. I chose to do Space Invaders as I thought it would allow more creative freedom and present more avenues on which to expand.</div>
             </div>
             <div className="links">
-              <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+              <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly', padding: '2% 0%' }}>
                 <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://github.com/theorlbooth/Project_1"><i className="devicon-github-original"></i></a></div>
                 <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://theorlbooth.co.uk/Project_1/"><HiLink /></a></div>
               </div>

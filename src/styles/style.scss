@@ -1,7 +1,9 @@
 
-html {
-  width: 100%
+.alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
+  font-size: 40px;
+  color: white;
 }
+
 
 #about {
   width: 100%;
@@ -9,11 +11,9 @@ html {
   justify-content: space-evenly;
   align-items: center;
   padding: 5% 0%;
-  background-color: #2a4d69;
+  background-color:#2a4d69;
 
   img {
-    // border: 3px solid black;
-    // border-radius: 50%;
     max-width: 300px;
     // filter: grayscale(100%);
   }
@@ -38,6 +38,7 @@ html {
 
     i {
       font-size: 50px;
+      // color: #009688;
     }
 
     .name {
@@ -67,7 +68,7 @@ html {
 
     h2 {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
       font-size: 28px;
       text-decoration: underline;
     }
@@ -79,7 +80,7 @@ html {
 
     h2 {
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
       font-size: 28px;
       text-decoration: underline;
     }

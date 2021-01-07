@@ -28,9 +28,7 @@ const Project3 = () => {
               </div>
             </div>
           </article>
-          <article className="tile is-child is-primary screen_shots">
-            <img src={Pic5} alt="Nested Comments" />
-          </article>
+
         </div>
 
         <div className="tile is-parent is-vertical">
@@ -67,6 +65,9 @@ const Project3 = () => {
         <div className="tile is-parent is-vertical">
           <article className="tile is-child is-primary screen_shots">
             <img src={Pic3} alt="Single Pub" />
+          </article>
+          <article className="tile is-child is-primary screen_shots">
+            <img src={Pic5} alt="Nested Comments" />
           </article>
           <article className="tile is-child is-primary screen_shots">
             <img src={Pic1} alt="Register" />
