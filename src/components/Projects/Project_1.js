@@ -6,7 +6,7 @@ const Project1 = () => {
   return <>
     <div id="project1">
 
-      <div className="tile is-ancesstor">
+      <div className="tile is-ancestor">
 
         <div className="tile is-parent is-vertical">
           <article className="tile is-child notification is-primary">
@@ -34,7 +34,7 @@ const Project1 = () => {
           <article className="tile is-child is-primary screen_shots">
             <img src="../styles/images/project_1/GP_Level_4.2.png" alt="Level 4 Gameplay" />
           </article>
-          <article className="tile is-child notification is-primary" style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+          <article className="tile is-child notification is-primary" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px' }}>
             <p className="subtitle" style={{ height: '20%' }}>Main Technologies:</p>
 
             <div className="links" style={{ height: '80%' }}>
