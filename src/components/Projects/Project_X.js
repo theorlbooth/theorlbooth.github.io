@@ -7,6 +7,7 @@ import Pic2 from '../../styles/images/project_x/2.png'
 import Pic5 from '../../styles/images/project_x/5.png'
 import Pic6 from '../../styles/images/project_x/6.png'
 import PicJoin from '../../styles/images/project_x/Join.png'
+import Pic7 from '../../styles/images/project_x/5.1.png'
 
 const ProjectX = () => {
   return <>
@@ -28,16 +29,16 @@ const ProjectX = () => {
               </div>
             </div>
           </article>
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Pic1} alt="Next 7 Days" />
           </article>
         </div>
 
         <div className="tile is-parent is-vertical">
-          <article className="tile is-child is-primary screen_shots">
-            <img src={Pic6} alt="Table" />
+          <article className="tile is-child is-primary screen_shots box box">
+            <img src={Pic7} alt="Next 24h" />
           </article>
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={PicJoin} alt="Lisbon/Shanghai" />
           </article>
           <article className="tile is-child notification" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px', backgroundColor: '#35a79c' }}>
@@ -59,10 +60,10 @@ const ProjectX = () => {
         </div>
 
         <div className="tile is-parent is-vertical">
-          <article className="tile is-child is-primary screen_shots">
-            <img src={Pic5} alt="Next 24h" />
+          <article className="tile is-child is-primary screen_shots box">
+            <img src={Pic6} alt="League Table" />
           </article>
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Pic2} alt="Home" />
           </article>
         </div>

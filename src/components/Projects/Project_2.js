@@ -7,6 +7,7 @@ import Pic2 from '../../styles/images/project_2/2.png'
 import Pic3 from '../../styles/images/project_2/3.png'
 import Pic4 from '../../styles/images/project_2/4.png'
 import Pic5 from '../../styles/images/project_2/5.png'
+import New1 from '../../styles/images/project_2/1.1.png'
 
 const Project2 = () => {
   return <>
@@ -19,7 +20,7 @@ const Project2 = () => {
             <div className="content">
               <p className="title">Music Worldwide</p>
               <p className="subtitle">Project 2</p>
-              <div className="content">This was a pair hackathon with a 48h time limit.<br></br><br></br>Music Worldwide is a platform to discover music from around the world and subsequently information about the artists and recent news articles they have appeared in.<br></br><br></br>Focusing on the Top10 tracks from countries around the world the user is able to view the top songs and listen to 30 seconds of the track before finding out about the artist.</div>
+              <div className="content">This was a pair hackathon with a 48h time limit.<br></br><br></br>Music Worldwide is a platform to discover music from around the world and subsequently information about the artists and recent news articles they have appeared in.<br></br><br></br>Focusing on the Top10 tracks from countries around the world the user is able to view the top songs and listen to 30 seconds of the track before finding out about the artist and any recent features in world news.</div>
             </div>
             <div className="links">
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
@@ -63,7 +64,7 @@ const Project2 = () => {
             <img src={Pic5} alt="Artist Result" />
           </article>
           <article className="tile is-child is-primary screen_shots">
-            <img src={Pic1} alt="Search" />
+            <img src={New1} alt="Search" />
           </article>
         </div>
 

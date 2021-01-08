@@ -4,6 +4,8 @@ html {
   scroll-padding: 83px;
 }
 
+// * ------------ Navbar ------------
+
 a.navbar-item {
   border: 1px solid #2a4d69;
 }
@@ -13,6 +15,8 @@ a.navbar-item:hover {
   background-color: #2a4d69 !important;
 }
 
+// * ------------ Carousel ------------
+
 .alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
   font-size: 40px;
   color: white;
@@ -21,6 +25,8 @@ a.navbar-item:hover {
 .alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
   background-color: #35a79c !important;
 }
+
+// * ------------ About ------------
 
 #about {
   width: 100%;
@@ -40,15 +46,18 @@ a.navbar-item:hover {
     justify-content: center;
     align-items: center;
     color: #009688;
+    max-width: 600px;
   }
 }
 
-@media only screen and (max-width: 450px) {
+// * ------------ Media Query ------------
+
+@media only screen and (max-width: 750px) {
   #about {
     flex-direction: column;
-
+    
     img {
-      margin: 10%;
+      margin: 0% 10% 10% 10%;
     }
 
     .blurb {
@@ -66,11 +75,24 @@ a.navbar-item:hover {
       height: 1px !important;
       margin: 5px !important;
     }
+    
+    .current, .learning {
+      h2 {
+        margin-bottom: 10% !important;
+      }
+    }
   }
   
+  #project1, #project2, #project3, #project4, #projectX {
+    margin: 0%;
+  }
 
+  #projects {
+    padding: 0% !important;
+  }
 }
 
+// * ------------ Skills ------------
 
 #skills {
   display: flex;
@@ -140,12 +162,16 @@ a.navbar-item:hover {
 }
 
 
-
+// * ------------ Projects ------------
 
 #project1, #project2, #project3, #project4, #projectX {
 
   margin: 5% 10%;
 
+  .box {
+    background-color: rgb(42, 77, 105);
+  }
+  
   .links {
     margin: 4% 0%;
   }
@@ -199,9 +225,7 @@ a.navbar-item:hover {
 }
 
 
-
-
-
+// * ------------ Contact ------------
 
 #contact {
 
@@ -221,7 +245,6 @@ a.navbar-item:hover {
     svg {
       font-size: 50px;
     }   
-
 
     .name {
       position: absolute;

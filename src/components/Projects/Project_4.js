@@ -19,7 +19,7 @@ const Project4 = () => {
             <div className="content">
               <p className="title">Travel Explorer</p>
               <p className="subtitle">Project 4</p>
-              <div className="content">The final project at GA was to create a full-stack web application. This two-person, week-long project utilised a Python Flask RESTful API. TravelExplorer allows users to navigate the world, exploring new cities and find some new places and even suggest an itinerary for specified dates. User functionality allows the creation of travel wish-lists, and comments and reviews. The idea was born out of a mutual love for travel and frustration with the lack of user interaction with travel websites, specifically as a place to plan a trip!</div>
+              <div className="content">The final project at GA was to create a full-stack web application. This two-person, week-long project utilised a Python Flask RESTful API.<br></br><br></br>TravelExplorer allows users to navigate the world, exploring new cities and find some new places and even suggest an itinerary for specified dates. User functionality allows the creation of travel wish-lists, and comments and reviews.<br></br><br></br>The idea was born out of a mutual love for travel and frustration with the lack of user interaction with travel websites, specifically as a place to plan a trip!</div>
             </div>
             <div className="links">
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
