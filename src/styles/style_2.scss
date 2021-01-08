@@ -1,0 +1,290 @@
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 83px;
+  background-color: #2a4d69
+}
+
+body {
+  background-color: #2a4d69
+}
+
+// * ------------ Navbar ------------
+
+a.navbar-item {
+  border: 1px solid #2a4d69;
+}
+
+a.navbar-item:hover {
+  border: 1px solid #35a79c;
+  background-color: #2a4d69 !important;
+}
+
+// * ------------ Carousel ------------
+
+.alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
+  font-size: 40px;
+  color: white;
+}
+
+.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
+  background-color: #35a79c !important;
+}
+
+
+// * ------------ About ------------
+
+#about {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5% 0%;
+  background-color:#2a4d69;
+
+  img {
+    max-width: 300px;
+    // filter: grayscale(100%);
+  }
+
+  .blurb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    font-size: 18px;
+  }
+}
+
+// * ------------ Media Query ------------
+
+@media only screen and (max-width: 750px) {
+  #about {
+    flex-direction: column;
+    
+    img {
+      margin: 0% 10% 10% 10%;
+    }
+
+    .blurb {
+      margin: 10%;
+    }
+  }
+
+  #skills {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .center {
+      width: 80% !important;
+      height: 1px !important;
+      margin: 5px !important;
+    }
+    
+    .current, .learning {
+      h2 {
+        margin-bottom: 10% !important;
+      }
+    }
+  }
+  
+  #project1, #project2, #project3, #project4, #projectX {
+    margin: 0%;
+  }
+
+  #projects {
+    padding: 0% !important;
+  }
+}
+
+// * ------------ Skills ------------
+
+#skills {
+  display: flex;
+  justify-content: space-evenly;
+
+  .center {
+    width: 1px;
+    border: 1px solid #35a79c;
+    margin: 10% 0 8% 0;
+  }
+
+
+  .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 50px;
+      color: #35a79c;
+    }
+    
+    svg {
+      font-size: 50px;
+      color: #35a79c;
+    }   
+
+    .name {
+      position: absolute;
+      font-weight: bold;
+      font-size: 20px;
+      opacity: 0;
+      max-width: 100%;
+      text-align: center;
+      color: #e7eff6;
+    }
+
+  }
+
+  .column:hover {
+    i {
+      color: #4a4a4a;
+    }
+
+    svg {
+      color: #4a4a4a;
+    }
+
+    .name {
+      opacity: 1;
+    }
+  }
+
+  .learning {
+    width: 65%;
+    margin: 3%;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 5%;
+      font-size: 28px;
+      text-decoration: underline;
+    }
+  }
+
+  .current {
+    width: 65%;
+    margin: 3%;
+
+    h2 {
+      text-align: center;
+      margin-bottom: 5%;
+      font-size: 28px;
+      text-decoration: underline;
+    }
+  }
+}
+
+
+// * ------------ Projects ------------
+
+#project1, #project2, #project3, #project4, #projectX {
+
+  margin: 5% 10%;
+
+  .box {
+    background-color: #2a4d69;
+    border: 1px solid #35a79c;
+  }
+
+  .links {
+    margin: 4% 0%;
+  }
+
+  a {
+    color: #e7eff6;
+  }
+
+  .screen_shots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 50px;
+    }
+
+    svg {
+      font-size: 50px;
+    }   
+
+    .name {
+      position: absolute;
+      font-weight: bold;
+      font-size: 20px;
+      opacity: 0;
+      max-width: 100%;
+      text-align: center;
+      color: #e7eff6;
+    }
+
+  }
+
+  .column:hover {
+    i {
+      color: #009688;
+    }
+    svg { 
+      color: #009688;
+    }
+    .name {
+      opacity: 1;
+    }
+  }
+}
+
+
+// * ------------ Contact ------------
+
+#contact {
+
+  a {
+    color: #e7eff6;
+  }
+  
+  .column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 50px;
+    }
+
+    svg {
+      font-size: 50px;
+    }   
+
+    .name {
+      position: absolute;
+      font-weight: bold;
+      font-size: 20px;
+      opacity: 0;
+      max-width: 100%;
+      text-align: center;
+      color: #2a4d69;
+    }
+
+  }
+
+  .column:hover {
+    i {
+      color: #009688;
+    }
+    svg { 
+      color: #009688;
+    }
+    .name {
+      opacity: 1;
+    }
+  }
+  
+}
