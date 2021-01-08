@@ -42,7 +42,7 @@ const Project1 = () => {
           <article className="tile is-child notification" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px', backgroundColor: '#35a79c' }}>
             <p className="subtitle" style={{ height: '20%' }}>Main Technologies:</p>
 
-            <div className="links" style={{ height: '80%' }}>
+            <div className="links" style={{ height: '100%' }}>
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex' }}>
                 <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-javascript-plain"></i><div className="name">JavaScript</div></div>
                 <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-html5-plain"></i><div className="name">HTML5</div></div>
