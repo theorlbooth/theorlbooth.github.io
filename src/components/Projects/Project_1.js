@@ -27,16 +27,16 @@ const Project1 = () => {
               </div>
             </div>
           </article>
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Level3GP} alt="Level 3 Gameplay" />
           </article>
         </div>
 
         <div className="tile is-parent is-vertical">
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Level1} alt="Level 1" />
           </article>
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Level4GP} alt="Level 4 Gameplay" />
           </article>
           <article className="tile is-child notification" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px', backgroundColor: '#35a79c' }}>
@@ -56,10 +56,10 @@ const Project1 = () => {
         </div>
 
         <div className="tile is-parent is-vertical">
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Rules} alt="Rules" />
           </article>
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={BossGP} alt="Boss Gameplay" />
           </article>
         </div>

@@ -28,13 +28,13 @@ const Project4 = () => {
               </div>
             </div>
           </article>
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Pic2} alt="Single Place" />
           </article>
         </div>
 
         <div className="tile is-parent is-vertical">
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Pic5}alt="Trip Planner" />
           </article>
 
@@ -44,19 +44,19 @@ const Project4 = () => {
 
             <div className="links" style={{ height: '80%' }}>
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex' }}>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-javascript-plain"></i><div className="name">JavaScript</div></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-react-original"></i><div className="name">React</div></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-python-plain"></i><div className="name">Python</div></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-heroku-original"></i><div className="name">Heroku</div></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-postgresql-plain"></i><div className="name">PostgrSQL</div></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-nodejs-plain"></i><div className="name">NodeJS</div></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-webpack-plain"></i><div className="name">Webpack</div></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-html5-plain"></i><div className="name">HTML5</div></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-css3-plain"></i><div className="name">CSS3</div></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-sass-original"></i><div className="name">SASS</div></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-npm-original-wordmark"></i><div className="name">npm</div></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-git-plain"></i><div className="name">Git</div></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-github-original"></i><div className="name">GitHub</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-javascript-plain"></i><div className="name">JavaScript</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-react-original"></i><div className="name">React</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-python-plain"></i><div className="name">Python</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-heroku-original"></i><div className="name">Heroku</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-postgresql-plain"></i><div className="name">PostgrSQL</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-nodejs-plain"></i><div className="name">NodeJS</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-webpack-plain"></i><div className="name">Webpack</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-html5-plain"></i><div className="name">HTML5</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-css3-plain"></i><div className="name">CSS3</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-sass-original"></i><div className="name">SASS</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-npm-original-wordmark"></i><div className="name">npm</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-git-plain"></i><div className="name">Git</div></div>
+                <div className="column is-one-third-desktop is-one-third-mobile"><i className="devicon-github-original"></i><div className="name">GitHub</div></div>
               </div>
 
             </div>
@@ -64,13 +64,13 @@ const Project4 = () => {
         </div>
 
         <div className="tile is-parent is-vertical">
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Pic3} alt="Folders" />
           </article>
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Pic1} alt="Search Result" />
           </article>
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Pic4} alt="Register" />
           </article>
         </div>

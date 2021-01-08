@@ -26,6 +26,7 @@ a.navbar-item:hover {
   background-color: #35a79c !important;
 }
 
+
 // * ------------ About ------------
 
 #about {
@@ -45,8 +46,8 @@ a.navbar-item:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #009688;
     max-width: 600px;
+    font-size: 20px;
   }
 }
 
@@ -169,9 +170,9 @@ a.navbar-item:hover {
   margin: 5% 10%;
 
   .box {
-    background-color: rgb(42, 77, 105);
+    background-color: #35a79c;
   }
-  
+
   .links {
     margin: 4% 0%;
   }

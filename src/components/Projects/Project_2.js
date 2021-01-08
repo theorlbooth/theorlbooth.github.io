@@ -29,16 +29,16 @@ const Project2 = () => {
               </div>
             </div>
           </article>
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Pic3} alt="Filter Screenshot" />
           </article>
         </div>
 
         <div className="tile is-parent is-vertical">
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Pic2} alt="Home Screenshot" />
           </article>
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Pic4} alt="Artist Search" />
           </article>
           <article className="tile is-child notification" style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '20px 30px', backgroundColor: '#35a79c' }}>
@@ -60,10 +60,10 @@ const Project2 = () => {
         </div>
 
         <div className="tile is-parent is-vertical">
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={Pic5} alt="Artist Result" />
           </article>
-          <article className="tile is-child is-primary screen_shots">
+          <article className="tile is-child is-primary screen_shots box">
             <img src={New1} alt="Search" />
           </article>
         </div>
