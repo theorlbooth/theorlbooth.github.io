@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { SiMicrosoftexcel, SiFlask } from 'react-icons/si'
 
 const Skills = () => {
   return <>
@@ -24,6 +25,8 @@ const Skills = () => {
           <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-sass-original"></i><div className="name">SASS</div></div>
           <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-visualstudio-plain"></i><div className="name">VSCode</div></div>
           <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-webpack-plain"></i><div className="name">Webpack</div></div>
+          <div className="column is-one-fifth-desktop is-one-third-mobile"><SiMicrosoftexcel /><div className="name">Excel</div></div>
+          <div className="column is-one-fifth-desktop is-one-third-mobile"><SiFlask /><div className="name">Flask</div></div>
         </div>
       </div>
       <div className="center"></div>
