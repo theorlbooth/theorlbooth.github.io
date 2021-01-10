@@ -1,15 +1,19 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: 83px;
+  scroll-padding: 8%;
   background-color: #2a4d69
 }
 
 body {
-  background-color: #2a4d69
+  background-color: #2a4d69;
 }
 
 // * ------------ Navbar ------------
+
+.navbar {
+  height: 8%;
+}
 
 a.navbar-item {
   border: 1px solid #2a4d69;
@@ -32,84 +36,86 @@ a.navbar-item:hover {
 }
 
 
+// * ------------ About/Skills ------------
+
+#about-skills {
+  display: flex;
+}
+
 // * ------------ About ------------
 
 #about {
-  width: 100%;
+  width: 50%;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding: 5% 0%;
   background-color:#2a4d69;
+  margin: 6%;
 
   img {
     max-width: 300px;
+    border-radius: 6px;
     // filter: grayscale(100%);
+    margin: 6%;
   }
 
   .blurb {
+    color: white;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 600px;
     font-size: 18px;
+    margin: 6%;
   }
 }
 
-// * ------------ Media Query ------------
 
-@media only screen and (max-width: 750px) {
-  #about {
-    flex-direction: column;
-    
-    img {
-      margin: 0% 10% 10% 10%;
-    }
-
-    .blurb {
-      margin: 10%;
-    }
-  }
-
-  #skills {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    .center {
-      width: 80% !important;
-      height: 1px !important;
-      margin: 5px !important;
-    }
-    
-    .current, .learning {
-      h2 {
-        margin-bottom: 10% !important;
-      }
-    }
-  }
-  
-  #project1, #project2, #project3, #project4, #projectX {
-    margin: 0%;
-  }
-
-  #projects {
-    padding: 0% !important;
-  }
-}
 
 // * ------------ Skills ------------
 
 #skills {
+  width: 50%;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+  border: 3px solid #35a79c;
+  border-radius: 6px;
+  margin: 6%;
 
+  .current {
+    padding: 10%;
+    width: 100%;
+
+    h2 {
+      color: white;
+      text-align: center;
+      margin-bottom: 10%;
+      font-size: 28px;
+      text-decoration: underline;
+    }
+  }
+  
   .center {
-    width: 1px;
+    height: 0px;
     border: 1px solid #35a79c;
-    margin: 10% 0 8% 0;
+    width: 40%;
   }
 
+  .learning {
+    padding: 10%;
+    width: 100%;
+
+    h2 {
+      color: white;
+      text-align: center;
+      margin-bottom: 10%;
+      font-size: 28px;
+      text-decoration: underline;
+    }
+  }
 
   .column {
     display: flex;
@@ -135,7 +141,6 @@ a.navbar-item:hover {
       text-align: center;
       color: #e7eff6;
     }
-
   }
 
   .column:hover {
@@ -151,42 +156,25 @@ a.navbar-item:hover {
       opacity: 1;
     }
   }
-
-  .learning {
-    width: 65%;
-    margin: 3%;
-
-    h2 {
-      text-align: center;
-      margin-bottom: 5%;
-      font-size: 28px;
-      text-decoration: underline;
-    }
-  }
-
-  .current {
-    width: 65%;
-    margin: 3%;
-
-    h2 {
-      text-align: center;
-      margin-bottom: 5%;
-      font-size: 28px;
-      text-decoration: underline;
-    }
-  }
 }
 
 
 // * ------------ Projects ------------
 
+// #projects {
+//   height: 100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
 #project1, #project2, #project3, #project4, #projectX {
 
   margin: 5% 10%;
-
+  
   .box {
     background-color: #2a4d69;
-    border: 1px solid #35a79c;
+    border: 3px solid #35a79c;
   }
 
   .links {
@@ -195,6 +183,7 @@ a.navbar-item:hover {
 
   a {
     color: #e7eff6;
+    text-decoration: none;
   }
 
   .screen_shots {
@@ -225,7 +214,6 @@ a.navbar-item:hover {
       text-align: center;
       color: #e7eff6;
     }
-
   }
 
   .column:hover {
@@ -272,7 +260,6 @@ a.navbar-item:hover {
       text-align: center;
       color: #2a4d69;
     }
-
   }
 
   .column:hover {
@@ -286,5 +273,26 @@ a.navbar-item:hover {
       opacity: 1;
     }
   }
+}
+
+
+// * ------------ Media Query ------------
+
+@media only screen and (max-width: 750px) {
+  #about-skills {
+    flex-direction: column;
+    align-items: center;
+    
+    #about {
+      width: 100%;
+    }
   
+    #skills {
+      width: 100%;
+    }
+  }
+
+  #project1, #project2, #project3, #project4, #projectX {
+    margin: 6%;
+  }
 }

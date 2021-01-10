@@ -15,7 +15,7 @@ const Projects = () => {
     <div id="projects" style={{ backgroundColor: '#2a4d69' }}>
       <AliceCarousel
         infinite={true}
-        autoPlay={true}
+        // autoPlay={true}
         autoPlayInterval={5000}
         autoHeight
       >

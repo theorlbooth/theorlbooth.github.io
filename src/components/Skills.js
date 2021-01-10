@@ -82,7 +82,6 @@ const Skills = () => {
           <Fade bottom>
             <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-csharp-plain"></i><div className="name">C#</div></div>
           </Fade>
-          {/* <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-mocha-plain"></i><div className="name">Mocha</div></div> */}
           <Fade bottom>
             <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-ruby-plain"></i><div className="name">Ruby</div></div>
           </Fade>

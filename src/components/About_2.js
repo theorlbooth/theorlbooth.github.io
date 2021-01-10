@@ -10,15 +10,15 @@ import Fade from 'react-reveal/Fade'
 const AboutB = () => {
   return <>
 
-    <div style={{ display: 'flex' }}>
-      <div id="about" style={{ display: 'flex', flexDirection: 'column', margin: '6%', justifyContent: 'space-between' }}>
-        <img src={ProfilePic} alt="Profile Picture" style={{ margin: '40px' }} />
-        <div className="blurb" style={{ textAlign: 'center', color: 'white' }}>My name is Theo, and I am a recent General Assembly Software Engineering Immersive Graduate.<br></br><br></br>I spent the last 6 years working both as a broker and a trader in the shipping industry. And after developing a few tools for internal use to help productivity, I found that I was enjoying the building of these projects more than I was enjoying the day to day work.<br></br><br></br>I started by taking various online courses and found that I was enjoying it more and more. So in September I took the plunge, and enrolled on a full time course.<br></br><br></br></div>
+    <div id="about-skills">
+      <div id="about">
+        <img src={ProfilePic} alt="Profile Picture" />
+        <div className="blurb">My name is Theo, and I am a recent General Assembly Software Engineering Immersive Graduate.<br></br><br></br>I spent the last 6 years working both as a broker and a trader in the shipping industry. And after developing a few tools for internal use to help productivity, I found that I was enjoying the building of these projects more than I was enjoying the day to day work.<br></br><br></br>I started by taking various online courses and found that I was enjoying it more and more. So in September I took the plunge, and enrolled on a full time course.<br></br><br></br></div>
       </div>
 
-      <div id="skills" style={{ backgroundColor: '#2a4d69', paddingBottom: '30px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', border: '1px solid #35a79c', borderRadius: '5%', margin: '6%' }}>
+      <div id="skills">
         <div className="current">
-          <h2 style={{ color: '#35a79c', marginBottom: '10%' }}>Current Skills</h2>
+          <h2>Current Skills</h2>
           <div className="columns is-multiline is-mobile is-centered">
             <Fade bottom>
               <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-babel-plain"></i><div className="name">Babel</div></div>
@@ -79,12 +79,12 @@ const AboutB = () => {
             </Fade>
           </div>
         </div>
-        <div className="center" style={{ width: '30%', height: '1px', margin: '5%' }}></div>
-        <div className="learning" style={{ margin: '0px' }}>
-          <h2 style={{ color: '#35a79c', marginBottom: '10%' }}>Learning</h2>
+        <div className="center"></div>
+        <div className="learning">
+          <h2>Learning</h2>
           <div className="columns is-multiline is-mobile is-centered">
             <Fade bottom>
-              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-amazonwebservices-original"></i><div className="name">Amazon Web Services</div></div>
+              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-amazonwebservices-original"></i><div className="name">Amazon<br></br>Web Services</div></div>
             </Fade>
             <Fade bottom>
               <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-bootstrap-plain"></i><div className="name">Bootstrap</div></div>
@@ -92,7 +92,9 @@ const AboutB = () => {
             <Fade bottom>
               <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-csharp-plain"></i><div className="name">C#</div></div>
             </Fade>
-            {/* <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-mocha-plain"></i><div className="name">Mocha</div></div> */}
+            {/* <Fade bottom>
+              <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-mocha-plain"></i><div className="name">Mocha</div></div>
+            </Fade> */}
             <Fade bottom>
               <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-ruby-plain"></i><div className="name">Ruby</div></div>
             </Fade>
