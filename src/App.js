@@ -13,6 +13,7 @@ import Contact from './components/Contact'
 import About from './components/About-Skills'
 
 
+
 const App = () => {
   return <>
   <Navbar />

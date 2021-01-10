@@ -26,17 +26,42 @@ a.navbar-item:hover {
 
 // * ------------ Carousel ------------
 
-.alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
-  font-size: 40px;
+// .alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
+//   font-size: 40px;
+//   color: white;
+// }
+
+// .alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
+//   background-color: #35a79c !important;
+// }
+
+// .alice-carousel__dots {
+//   margin: 0px !important;
+// }
+
+.carousel-dots {
+  margin: 0 0 3% 0 !important;
+}
+
+.carousel-dots li.carousel-dots-active button:before {
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.carousel-prev.block, .carousel-next.block {
+  margin: 3%;
+}
+
+.carousel-button {
+  border: none;
   color: white;
-}
+  outline: none;
+  background: none;
+  cursor: pointer;
 
-.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
-  background-color: #35a79c !important;
-}
-
-.alice-carousel__dots {
-  margin: 0px !important;
+  span {
+    font-size: 50px;
+  }
 }
 
 // * ------------ About/Skills ------------
@@ -53,7 +78,7 @@ a.navbar-item:hover {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color:#2a4d69;
+  // background-color:#35a79c;
   margin: 6%;
 
   img {
@@ -297,5 +322,9 @@ a.navbar-item:hover {
 
   #project1, #project2, #project3, #project4, #projectX {
     margin: 6%;
+  }
+
+  .carousel-prev.block, .carousel-next.block {
+    display: none;
   }
 }
