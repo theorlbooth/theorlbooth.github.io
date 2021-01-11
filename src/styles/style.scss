@@ -17,31 +17,6 @@ body {
   padding: 0px;
 }
 
-// * ------------ Media Query ------------
-
-@media only screen and (max-width: 750px) {
-  #about-skills {
-    flex-direction: column;
-    align-items: center;
-    
-    #about {
-      width: 100%;
-    }
-  
-    #skills {
-      width: 100%;
-    }
-  }
-
-  #project1, #project2, #project3, #project4, #projectX {
-    margin: 6%;
-  }
-
-  .carousel-prev.block, .carousel-next.block {
-    display: none;
-  }
-}
-
 // * ------------ Navbar ------------
 
 .navbar {
@@ -349,3 +324,27 @@ a.navbar-item:hover {
 }
 
 
+// * ------------ Media Query ------------
+
+@media only screen and (max-width: 2000px) {
+  #about-skills {
+    flex-direction: column;
+    align-items: center;
+    
+    #about {
+      width: 100%;
+    }
+  
+    #skills {
+      width: 100%;
+    }
+  }
+
+  #project1, #project2, #project3, #project4, #projectX {
+    margin: 6%;
+  }
+
+  .carousel-prev.block, .carousel-next.block {
+    display: none;
+  }
+}
