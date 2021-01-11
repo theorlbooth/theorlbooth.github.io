@@ -11,7 +11,7 @@ import ProjectX from './Projects/Project_X'
 const Projects = () => {
 
   const settings = {
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 5000,
     dots: true,
     initialSlide: true,
