@@ -34,6 +34,7 @@ a.navbar-item:hover {
 
 // * ------------ Carousel ------------
 
+// ! Alice Carousel
 // .alice-carousel__prev-btn [data-area]::after, .alice-carousel__next-btn [data-area]::after {
 //   font-size: 40px;
 //   color: white;
@@ -47,30 +48,40 @@ a.navbar-item:hover {
 //   margin: 0px !important;
 // }
 
-.carousel-dots {
-  margin: 0 0 3% 0 !important;
-  
+// ! Infinite Carousel 
+// .carousel-dots {
+//   margin: 0 0 3% 0 !important; 
+// }
+
+// .carousel-dots li.carousel-dots-active button:before {
+//   color: white !important;
+//   opacity: 1 !important;
+// }
+
+// .carousel-prev.block, .carousel-next.block {
+//   margin: 3%;
+// }
+
+// .carousel-button {
+//   border: none;
+//   color: white;
+//   outline: none;
+//   background: none;
+//   cursor: pointer;
+
+//   span {
+//     font-size: 50px;
+//   }
+// }
+
+// ! Multi Carousel 
+
+.react-multi-carousel-dot-list {
+  margin-bottom: 3%;
 }
 
-.carousel-dots li.carousel-dots-active button:before {
-  color: white !important;
-  opacity: 1 !important;
-}
-
-.carousel-prev.block, .carousel-next.block {
-  margin: 3%;
-}
-
-.carousel-button {
-  border: none;
-  color: white;
-  outline: none;
-  background: none;
-  cursor: pointer;
-
-  span {
-    font-size: 50px;
-  }
+.react-multi-carousel-dot--active button {
+  background: #35a79c;
 }
 
 // * ------------ About/Skills ------------
