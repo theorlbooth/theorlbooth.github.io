@@ -23,8 +23,8 @@ const Project4 = () => {
             </div>
             <div className="links">
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://github.com/theorlbooth/Project-4"><i className="devicon-github-original"></i></a></div>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://project-project-4.herokuapp.com/"><HiLink /></a></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://github.com/theorlbooth/Project-4" target="_blank" rel="noreferrer"><i className="devicon-github-original"></i></a></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://project-project-4.herokuapp.com/" target="_blank" rel="noreferrer"><HiLink /></a></div>
               </div>
             </div>
           </article>
