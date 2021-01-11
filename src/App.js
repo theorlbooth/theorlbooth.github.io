@@ -6,9 +6,6 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import 'react-multi-carousel/lib/styles.css'
 import './styles/style.scss'
 
-
-
-
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Projects from './components/Projects'

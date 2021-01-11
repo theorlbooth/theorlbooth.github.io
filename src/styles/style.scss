@@ -32,6 +32,14 @@ a.navbar-item:hover {
   background-color: #2a4d69 !important;
 }
 
+// * ------------ Particles ------------
+
+#tsparticles {
+  canvas {
+    height: 95% !important;
+  }
+}
+
 // * ------------ Carousel ------------
 
 // ! Alice Carousel

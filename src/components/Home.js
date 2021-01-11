@@ -3,9 +3,12 @@ import bulma from 'bulma'
 
 import Slide from 'react-reveal/Slide'
 
+import PartiCles from './PartiCles'
+
 const Home = () => {
   return <>
     <div id="home">
+      <PartiCles />
       <section className="hero is-fullheight" style={{ backgroundColor: '#2a4d69' }}>
         <div className="hero-body" >
           <Slide left>
