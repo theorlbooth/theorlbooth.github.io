@@ -13,9 +13,9 @@ const Contact = () => {
         <Slide left>
           <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://www.linkedin.com/in/theorlbooth/"><FaLinkedin /></a></div>
         </Slide>
-        <Slide bottom>
-          <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://github.com/theorlbooth"><i className="devicon-github-original"></i></a></div>
-        </Slide>
+        {/* <Slide bottom> */}
+        <div className="column is-one-fifth-desktop is-3-mobile"><a href="https://github.com/theorlbooth"><i className="devicon-github-original"></i></a></div>
+        {/* </Slide> */}
         <Slide right>
           <div className="column is-one-fifth-desktop is-3-mobile"><a href="mailto:theorlbooth@googlemail.com"><SiMailDotRu /></a></div>
         </Slide>
