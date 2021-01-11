@@ -48,7 +48,7 @@ const Projects = () => {
         responsive={responsive}
         removeArrowOnDeviceType={['tablet', 'mobile']}
         infinite={true}
-        // autoPlay={true}
+        autoPlay={true}
         autoPlaySpeed={5000}
         showDots={true}
       >
