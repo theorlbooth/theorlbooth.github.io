@@ -16,8 +16,8 @@ import About from './components/About-Skills'
 
 const App = () => {
   return <>
-  {/* <Navbar /> */}
-  <Home />
+  <Navbar />
+  {/* <Home /> */}
   <About />
   <Projects />
   <Contact />
