@@ -21,10 +21,25 @@ const AboutB = () => {
           <h2>Current Skills</h2>
           <div className="columns is-multiline is-mobile is-centered">
             <Fade bottom>
-              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-babel-plain"></i><div className="name">Babel</div></div>
+              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-javascript-plain"></i><div className="name">JavaScript</div></div>
+            </Fade>
+            <Fade bottom>
+              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-react-original"></i><div className="name">React</div></div>
+            </Fade>
+            <Fade bottom>
+              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-python-plain"></i><div className="name">Python</div></div>
+            </Fade>
+            <Fade bottom>
+              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-html5-plain"></i><div className="name">HTML5</div></div>
             </Fade>
             <Fade bottom>
               <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-css3-plain"></i><div className="name">CSS3</div></div>
+            </Fade>
+            <Fade bottom>
+              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-sass-original"></i><div className="name">SASS</div></div>
+            </Fade>
+            <Fade bottom>
+              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-visualstudio-plain"></i><div className="name">VSCode</div></div>
             </Fade>
             <Fade bottom>
               <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-express-original"></i><div className="name">Express</div></div>
@@ -39,10 +54,7 @@ const AboutB = () => {
               <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-heroku-original"></i><div className="name">Heroku</div></div>
             </Fade>
             <Fade bottom>
-              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-html5-plain"></i><div className="name">HTML5</div></div>
-            </Fade>
-            <Fade bottom>
-              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-javascript-plain"></i><div className="name">JavaScript</div></div>
+              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-babel-plain"></i><div className="name">Babel</div></div>
             </Fade>
             <Fade bottom>
               <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-mongodb-plain"></i><div className="name">MongoDB</div></div>
@@ -55,18 +67,6 @@ const AboutB = () => {
             </Fade>
             <Fade bottom>
               <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-postgresql-plain"></i><div className="name">PostgrSQL</div></div>
-            </Fade>
-            <Fade bottom>
-              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-python-plain"></i><div className="name">Python</div></div>
-            </Fade>
-            <Fade bottom>
-              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-react-original"></i><div className="name">React</div></div>
-            </Fade>
-            <Fade bottom>
-              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-sass-original"></i><div className="name">SASS</div></div>
-            </Fade>
-            <Fade bottom>
-              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-visualstudio-plain"></i><div className="name">VSCode</div></div>
             </Fade>
             <Fade bottom>
               <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-webpack-plain"></i><div className="name">Webpack</div></div>
