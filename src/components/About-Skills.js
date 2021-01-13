@@ -90,7 +90,7 @@ const AboutB = () => {
               <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-bootstrap-plain"></i><div className="name">Bootstrap</div></div>
             </Fade>
             <Fade bottom>
-              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-csharp-plain"></i><div className="name">C#</div></div>
+              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-cplusplus-plain"></i><div className="name">C++</div></div>
             </Fade>
             {/* <Fade bottom>
               <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-mocha-plain"></i><div className="name">Mocha</div></div>
