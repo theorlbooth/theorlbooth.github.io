@@ -49,7 +49,7 @@ const Projects = () => {
         removeArrowOnDeviceType={['tablet', 'mobile']}
         infinite={true}
         autoPlay={true}
-        autoPlaySpeed={5000}
+        autoPlaySpeed={15000}
         showDots={true}
       >
         <div style={{ display: 'inline-block' }}>
