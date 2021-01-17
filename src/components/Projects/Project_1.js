@@ -22,7 +22,7 @@ const Project1 = () => {
             </div>
             <div className="links">
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly', padding: '2% 0%' }}>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://github.com/theorlbooth/Project_1" target="_blank" rel="noreferrer"><i className="devicon-github-original"></i></a></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://github.com/theorlbooth/Star-Invaders" target="_blank" rel="noreferrer"><i className="devicon-github-original"></i></a></div>
                 <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://theorlbooth.co.uk/Project_1/" target="_blank" rel="noreferrer"><HiLink /></a></div>
               </div>
             </div>
