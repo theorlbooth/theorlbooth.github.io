@@ -7,7 +7,7 @@ import Project1 from './Projects/Project_1'
 import Project2 from './Projects/Project_2'
 import Project3 from './Projects/Project_3'
 import Project4 from './Projects/Project_4'
-import ProjectX from './Projects/Project_X'
+import ProjectA from './Projects/Project_A'
 
 const Projects = () => {
 
@@ -65,7 +65,7 @@ const Projects = () => {
           <Project4 />
         </div>
         <div style={{ display: 'inline-block' }}>
-          <ProjectX />
+          <ProjectA />
         </div>
       </Carousel>
 
@@ -86,7 +86,7 @@ const Projects = () => {
           <Project4 />
         </div>
         <div style={{ display: 'inline-block' }}>
-          <ProjectX />
+          <ProjectA />
         </div>
       </Slider> */}
 
@@ -109,7 +109,7 @@ const Projects = () => {
           <Project4 />
         </div>
         <div style={{ display: 'inline-block' }}>
-          <ProjectX />
+          <ProjectA />
         </div>
       </AliceCarousel> */}
     </div>

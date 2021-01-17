@@ -11,9 +11,9 @@ import Pic7 from '../../styles/images/project_x/5.1.png'
 import Graph1 from '../../styles/images/project_x/Graph_1.png'
 import Graph2 from '../../styles/images/project_x/Graph_2.png'
 
-const ProjectX = () => {
+const ProjectA = () => {
   return <>
-    <div id="projectX">
+    <div id="projectA">
 
       <div className="tile is-ancestor">
 
@@ -26,7 +26,7 @@ const ProjectX = () => {
             </div>
             <div className="links">
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://github.com/theorlbooth/Project-X" target="_blank" rel="noreferrer"><i className="devicon-github-original"></i></a></div>
+                <div className="column is-one-fifth-desktop is-one-third-mobile"><a href="https://github.com/theorlbooth/Project-Admin" target="_blank" rel="noreferrer"><i className="devicon-github-original"></i></a></div>
                 {/* <div className="column is-one-fifth-desktop is-one-third-mobile"><HiLink /><div className="name">Link to Site</div></div> */}
               </div>
             </div>
@@ -78,4 +78,4 @@ const ProjectX = () => {
   </>
 }
 
-export default ProjectX
+export default ProjectA
