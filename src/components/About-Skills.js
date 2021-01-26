@@ -92,12 +92,12 @@ const AboutB = () => {
             <Fade bottom>
               <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-cplusplus-plain"></i><div className="name">C++</div></div>
             </Fade>
-            {/* <Fade bottom>
-              <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-mocha-plain"></i><div className="name">Mocha</div></div>
-            </Fade> */}
             <Fade bottom>
-              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-ruby-plain"></i><div className="name">Ruby</div></div>
+              <div className="column is-one-fifth-desktop is-one-third-mobile"><i className="devicon-django-plain"></i><div className="name">Django</div></div>
             </Fade>
+            {/* <Fade bottom>
+              <div className="column is-one-fourth-desktop is-one-third-mobile"><i className="devicon-ruby-plain"></i><div className="name">Ruby</div></div>
+            </Fade> */}
           </div>
         </div>
       </div>
