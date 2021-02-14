@@ -9,7 +9,7 @@ import Pic6 from '../../styles/images/project_x/6.png'
 import PicJoin from '../../styles/images/project_x/Join.png'
 import Pic7 from '../../styles/images/project_x/5.1.png'
 import Graph1 from '../../styles/images/project_x/Graph_1.png'
-import Graph2 from '../../styles/images/project_x/Graph_2.png'
+import Graph2 from '../../styles/images/project_x/Graph_3.png'
 
 const ProjectA = () => {
   return <>
@@ -22,7 +22,7 @@ const ProjectA = () => {
             <div className="content">
               <p className="title">@Admin</p>
               <p className="subtitle">Ongoing Solo Project</p>
-              <div className="content">The idea with this project is to create an admin page that I can launch when opening a browser or turning on my computer and have everything I want to catch up on in one place rather than having to jump around. This is an ongoing project for which I am using React.<br></br>Current working elements:<br></br><br></br>- Weather 'app' (defaulted to home addresss, but can search by city). Weather available for next 7 days and next 24h.<br></br>- Premier League table - up to date Premier league table.<br></br>- Run traker. Graphs to track distance and speed.</div>
+              <div className="content">The idea with this project is to create an admin page that I can launch when opening a browser or turning on my computer and have everything I want to catch up on in one place rather than having to jump around. This is an ongoing project for which I am using a MERN stack.<br></br><br></br>Current working elements:<br></br><br></br>- Weather 'app' (defaulted to home addresss, but can search by city). Weather available for next 7 days and next 24h.<br></br>- Premier League table - up to date Premier league table.<br></br>- Run traker. Graphs to track distance and speed.</div>
             </div>
             <div className="links">
               <div className="columns is-multiline is-mobile is-centered" style={{ display: 'flex', justifyContent: 'space-evenly' }}>
